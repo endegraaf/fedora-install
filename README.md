@@ -12,7 +12,7 @@ This README page in this repo just serves as personal notes on what to install a
 
 ### Desktop environment 
 - Gnome is fine but KDE gives me more customization options. 
-```sudo dnf groupinstall -y "KDE Plasma Workspaces"```
+- ```sudo dnf groupinstall -y "KDE Plasma Workspaces"```
 
 ### Video editing & graphics
 - Open Broadcaster Software
@@ -20,25 +20,24 @@ This README page in this repo just serves as personal notes on what to install a
 - Audacity
 - Synfig studio
 - Krita
-```sudo dnf install -y obs-studio kdenlive audacity synfig krita inkscape```
+- ```sudo dnf install -y obs-studio kdenlive audacity synfig krita inkscape```
 
 ### Workflow
 - latte dock
-```sudo dnf install -y latte-dock```
+- ```sudo dnf install -y latte-dock```
 
 ### Containers / Virt
 * Vagrant (using libvirt) 
-```sudo dnf install -y libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c ruby-devel gcc vagrant qemu libvirt```
+- ```sudo dnf install -y libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c ruby-devel gcc vagrant qemu libvirt```
 - ```vagrant plugin install vagrant-libvirt```
-- Deprecated since f31:
-* VirtualBox
-* docker
-* docker-compose
-* Add user to docker group
+  - Deprecated since f31:
+  * VirtualBox
+  * docker
+  * docker-compose
+  * Add user to docker group
 
 ### emacs
-* Config 
-https://github.com/jhamrick/emacs.git
+* Config https://github.com/jhamrick/emacs.git
 * reveal
 
 ### Database
@@ -46,8 +45,8 @@ https://github.com/jhamrick/emacs.git
 * mysql workbench(rpm)
 
 ### Browsers 
-* Chromium
-```sudo dnf install -y chromium```
+- Chromium
+- ```sudo dnf install -y chromium```
 
 ### IDE
 * intellij idea (have this one in ~/Apps) 
@@ -81,7 +80,7 @@ https://github.com/jhamrick/emacs.git
 
 ## Games
 - Steam
-```sudo dnf install -y steam```
+- ```sudo dnf install -y steam```
 
 
 

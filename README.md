@@ -8,11 +8,14 @@ This README page in this repo just serves as personal notes on what to install a
 - RPMFusion
 ```sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm```
 
+
+- ```sudo dnf -y groupinstall "Development libraries"```
+
 ## Software
 
 ### Desktop environment 
 - Gnome is fine but KDE gives me more customization options. 
-- ```sudo dnf groupinstall -y "KDE Plasma Workspaces"```
+- ```sudo dnf groupinstall -y "KDE Plasma Workspaces" libtool```
 
 ### Video editing & graphics
 - Open Broadcaster Software
@@ -54,6 +57,10 @@ This README page in this repo just serves as personal notes on what to install a
 ## Multimedia playback (nonfree)
 ```dnf install -y gstreamer{1,}-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0```
 
+## Citrix client
+- RPM Citrix workspace
+- Config SSL certificates
+  - https://www.sslcertificaten.nl/download/Comodo_PositiveSSL/Comodo_PositiveSSL_-_SHA-2
 
 ## Customization
 ### Firefox (default zoom size)

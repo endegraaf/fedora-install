@@ -8,13 +8,26 @@ This README page in this repo just serves as personal notes on what to install a
 - RPMFusion
 ```sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm```
 
-
 - ```sudo dnf -y groupinstall "Development libraries"```
+- ```
+sudo dnf install docker-ce
+sudo dnf install docker-ce --allowerasing
+sudo dnf install sdl2-devel ffms2-devel meson gcc make
+sudo dnf install java-devel
+sudo dnf install -y ark
+sudo dnf install -y gradle
+sudo dnf install -y ksshaskpass
+sudo dnf install -y gradle
+sudo dnf group install "Java Development"
+sudo dnf install -y gnome-builder
+sudo dnf install photoflare
+sudo dnf install -y plasma-workspace-wayland
+  ```
 
 ## Software
 
 ### Desktop environment 
-- Gnome is fine but KDE gives me more customization options. 
+- Gnome is fine but KDE gives way more customization options. 
 - ```sudo dnf groupinstall -y "KDE Plasma Workspaces" libtool```
 
 ### Video editing & graphics
@@ -89,7 +102,17 @@ This README page in this repo just serves as personal notes on what to install a
 - Steam
 - ```sudo dnf install -y steam```
 
-
+## Other / misc.
+- ```
+dnf install -y remmina
+dnf install -y inkscape
+dnf install -y kompare
+dnf install -y vlc
+dnf install -y podman
+dnf install -y android-tools
+dnf install -y kde-connect
+dnf install -y livecd-tools spin-kickstarts
+```
 
 ## Partition
 - Partition table looks like

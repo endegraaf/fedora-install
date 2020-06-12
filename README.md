@@ -22,6 +22,7 @@ sudo dnf group install "Java Development"
 sudo dnf install -y gnome-builder
 sudo dnf install photoflare
 sudo dnf install -y plasma-workspace-wayland
+sudo dnf install -y vim-enhanced
   ```
 
 ## Software

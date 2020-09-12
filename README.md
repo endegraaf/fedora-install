@@ -1,35 +1,28 @@
-# fedora-install (Update after installing Fedora 31)
-
-## Fedora software after clean install
+# fedora-install 
+## What to do after installing Fedora (Last updated for Fedora 32)
 ### The purpose of this GIT repository
 This README page in this repo just serves as personal notes on what to install after a whipe of the root partition.
 
 ## Extra repo's
-- RPMFusion
-```sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm```
+RPMFusion
+```
+sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-- ```sudo dnf -y groupinstall "Development libraries"```
-- ```
-sudo dnf install docker-ce
-sudo dnf install docker-ce --allowerasing
-sudo dnf install sdl2-devel ffms2-devel meson gcc make
-sudo dnf install java-devel
-sudo dnf install -y ark
-sudo dnf install -y gradle
-sudo dnf install -y ksshaskpass
-sudo dnf install -y gradle
-sudo dnf group install "Java Development"
-sudo dnf install -y gnome-builder
-sudo dnf install photoflare
-sudo dnf install -y plasma-workspace-wayland
-sudo dnf install -y vim-enhanced
-  ```
-
-## Software
+sudo dnf -y groupinstall "Development libraries"
+sudo dnf -y groupinstall "Java Development"
+sudo dnf -y groupinstall "KDE Plasma Workspaces" libtool
+sudo dnf install -y sdl2-devel ffms2-devel meson gcc make java-devel ark gradle ksshaskpass gradle gnome-builder photoflare plasma-workspace-wayland vim-enhanced
+sudo dnf install -y libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c ruby-devel gcc vagrant qemu libvirt
+vagrant plugin install vagrant-libvirt
+dnf install -y remmina inkscape kompare vlc podman android-tools kde-connect livecd-tools spin-kickstarts
+sudo dnf install -y obs-studio kdenlive audacity synfig krita inkscape latte-dock chromium
+sudo dnf install -y gstreamer{1,}-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0
+sudo dnf install -y steam
+```
 
 ### Desktop environment 
 - Gnome is fine but KDE gives way more customization options. 
-- ```sudo dnf groupinstall -y "KDE Plasma Workspaces" libtool```
+
 
 ### Video editing & graphics
 - Open Broadcaster Software
@@ -37,21 +30,14 @@ sudo dnf install -y vim-enhanced
 - Audacity
 - Synfig studio
 - Krita
-- ```sudo dnf install -y obs-studio kdenlive audacity synfig krita inkscape```
+
 
 ### Workflow
 - latte dock
-- ```sudo dnf install -y latte-dock```
+
 
 ### Containers / Virt
-* Vagrant (using libvirt) 
-- ```sudo dnf install -y libxslt-devel libxml2-devel libvirt-devel libguestfs-tools-c ruby-devel gcc vagrant qemu libvirt```
-- ```vagrant plugin install vagrant-libvirt```
-  - Deprecated since f31:
-  * VirtualBox
-  * docker
-  * docker-compose
-  * Add user to docker group
+* Vagrant (using libvirt)
 
 ### emacs
 * Config https://github.com/jhamrick/emacs.git
@@ -63,13 +49,13 @@ sudo dnf install -y vim-enhanced
 
 ### Browsers 
 - Chromium
-- ```sudo dnf install -y chromium```
+
 
 ### IDE
 * intellij idea (have this one in ~/Apps) 
 
 ## Multimedia playback (nonfree)
-```dnf install -y gstreamer{1,}-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfree}}} --setopt=strict=0```
+
 
 ## Citrix client
 - RPM Citrix workspace
@@ -101,19 +87,7 @@ sudo dnf install -y vim-enhanced
 
 ## Games
 - Steam
-- ```sudo dnf install -y steam```
 
-## Other / misc.
-- ```
-dnf install -y remmina
-dnf install -y inkscape
-dnf install -y kompare
-dnf install -y vlc
-dnf install -y podman
-dnf install -y android-tools
-dnf install -y kde-connect
-dnf install -y livecd-tools spin-kickstarts
-```
 
 ## Partition
 - Partition table looks like

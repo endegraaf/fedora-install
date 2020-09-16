@@ -23,7 +23,6 @@ sudo dnf install -y steam
 ### Desktop environment 
 - Gnome is fine but KDE gives way more customization options. 
 
-
 ### Video editing & graphics
 - Open Broadcaster Software
 - KDE Non-Linear Video Editor
@@ -58,9 +57,10 @@ sudo dnf install -y steam
 
 
 ## Citrix client
-- RPM Citrix workspace
+- RPM Citrix workspace https://www.citrix.com/nl-nl/downloads/workspace-app/linux/workspace-app-for-linux-latest.html
 - Config SSL certificates
   - https://www.sslcertificaten.nl/download/Comodo_PositiveSSL/Comodo_PositiveSSL_-_SHA-2
+  - copy these crt files to /opt/Citrix/ICAClient/keystore/cacerts
 
 ## Customization
 ### Firefox (default zoom size)
@@ -81,13 +81,10 @@ sudo dnf install -y steam
 - Woordenboek nederlands (opentaal)
 
 ### Desktop fonts
-- Nerdfonts
-- Breeze dark
 - Yanone Kaffeesatz
 
 ## Games
 - Steam
-
 
 ## Partition
 - Partition table looks like

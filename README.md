@@ -21,7 +21,7 @@ sudo dnf install -y steam
 ```
 
 ### Desktop environment 
-- Gnome is fine but KDE gives way more customization options. 
+- Gnome is fine but KDE gives way more customization options. Also a keen user of i3 at this moment! See dotfiles repo.
 
 ### Video editing & graphics
 - Open Broadcaster Software
@@ -68,14 +68,12 @@ sudo dnf install -y steam
   - adjust the value of 'layout.css.devPixelsPerPx' in about:config (mine is at 1.25) 
 (source: https://superuser.com/a/1270947/533120)
 
-### Firefox extensions
+### Firefox extensions (synced through Firefox sync)
 - Adblock Plus
 - I don't care about cookies
 - Lastpass
 - Owl - for comfortable reading
-
-### Firefox themes
-- Firefox dark theme
+- Night Owl (Firefox dark / light theme toggle)
 
 ### Dictionaries
 - Woordenboek nederlands (opentaal)

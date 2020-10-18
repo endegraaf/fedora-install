@@ -62,8 +62,17 @@ RPMFusion
 ### Dictionaries
 - Woordenboek nederlands (opentaal)
 
-### Desktop fonts
+### Fonts
 - Yanone Kaffeesatz
+- Alegreya        
+- FiraCode
+- neuropol_x
+- Alegreya_Sans   
+- IBM_Plex_Mono   
+- 'Source Sans Pro'
+- Cabin
+- IBM_Plex_Sans    
+ 
 
 ## Games
 - Steam

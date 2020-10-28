@@ -60,7 +60,7 @@ RPMFusion
 - Night Owl (Firefox dark / light theme toggle)
 
 ### Dictionaries
-- Woordenboek nederlands (opentaal)
+- Woordenboek nederlands (opentaal) https://www.opentaal.org/bestanden/file/4-woordenlijst-v-2-10g-voor-openoffice-org-3
 
 ### Fonts
 - Yanone Kaffeesatz

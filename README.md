@@ -11,8 +11,10 @@ This README page in this repo just serves as personal notes on what to install a
 RPMFusion
 
 ## Desktop environment 
-- Gnome is fine and solid desktop experience and KDE gives way more customization 
- options. Also a keen user of i3 at this moment! See dotfiles repo.
+- Gnome
+  - https://extensions.gnome.org/extension/1503/tray-icons/
+- KDE
+- I3
 
 ## Video editing & graphics
 - Open Broadcaster Software

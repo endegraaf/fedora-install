@@ -1,0 +1,74 @@
+- Assume have Vulkan capable GPU
+- Install Lutris
+- Install Wine (installs wine staging)
+- Click on Install script on Lutris webpage for Overwatch 
+  https://lutris.net/games/overwatch/
+- For Fedora / RHEL probably all Vulkan drivers already loaded as this page also states
+https://github.com/lutris/docs/blob/master/InstallingDrivers.md
+sudo dnf install vulkan-loader vulkan-loader.i686
+
+Battle.net:
+Fedora: gnutls gnutls-devel openldap openldap-devel libgpg-error sqlite2.i686 sqlite2.x86_64 (Both i686 and x86_64 versions)
+ 
+- DXVK https://github.com/lutris/docs/blob/master/HowToDXVK.md
+- ESync https://github.com/lutris/docs/blob/master/HowToEsync.md
+
+Once installed, add right info to the Settings_v0.ini file
+
+Location to the file:
+/home/egraaf/Games/overwatch/drive_c/users/egraaf/My Documents/Overwatch/Settings
+
+[egraaf@edg-thinkpad 1] ~ > lspci -nn | grep VGA
+00:02.0 VGA compatible controller [0300]: Intel Corporation UHD Graphics 620 (Whiskey Lake) [8086:3ea0] (rev 02)
+[22:28 - 0.95]
+[egraaf@edg-thinkpad 2] ~ > echo $((0x3ea0))
+16032
+
+---
+
+[Cinematics.1]
+ShowIntro = "0"
+
+[environment.1]
+Current = "878969531"
+
+[GPU.6]
+GPUDeviceID = "16032"
+GPUName = "Intel(R) UHD Graphics 620 (WHL GT2)"
+GPUScaler = "70.000000"
+GPUVenderID = "32902"
+
+[MovieExport.1]
+Type = "1"
+UseHardware = "0"
+
+[Render.13]
+AADetail = "0"
+FullScreenHeight = "768"
+FullScreenRefresh = "60"
+FullScreenWidth = "1024"
+FullscreenWindow = "0"
+LimitAspectRatio = "0"
+LimitToRefresh = "0"
+RenderScale = "-5"
+ShowFPSCounter = "1"
+ShowGPUTemp = "1"
+ShowIND = "1"
+ShowRTT = "1"
+ShowVRAMUsage = "1"
+TextureDetail = "1"
+UseGPUScale = "0"
+WindowedFullscreen = "1"
+WindowMode = "1"
+
+[TankMenuItems.1]
+FPSOverlay = "0"
+
+---
+
+ 
+- Maybe for later? 
+
+  https://us.forums.blizzard.com/en/overwatch/t/i-got-overwatch-working-on-linux-with-steam-proton/236812
+
+

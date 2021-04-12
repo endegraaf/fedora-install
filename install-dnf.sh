@@ -6,3 +6,6 @@ sudo dnf install -y sdl2-devel ffms2-devel meson gcc make java-devel ark gradle 
 
 # Fonts
 sudo dnf install -y ibm-plex-fonts-all
+
+#reload font cache
+sudo fc-cache -f -v

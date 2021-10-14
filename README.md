@@ -17,10 +17,9 @@ RPMFusion
 - I3
 
 ## Video editing & graphics
-- Open Broadcaster Software
-- KDE Non-Linear Video Editor
+- OBS Open Broadcaster Software
+- Kdenlive - KDE Non-Linear Video Editor
 - Audacity
-- Synfig studio
 - Krita
 
 ## Workflow
@@ -31,8 +30,8 @@ RPMFusion
 * reveal
 
 ## Database
-* mysql-server
-* mysql workbench(rpm)
+* MariaDB (formerly MySQL)
+* mysql workbench (rpm)
 
 ## Browsers 
 - Chromium

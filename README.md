@@ -1,10 +1,10 @@
 # fedora-install 
-## What to do after installing Fedora (Last updated for Fedora 32)
+## What to do after installing Fedora (Last updated for Fedora 33)
 ### The purpose of this GIT repository
 This README page in this repo just serves as personal notes on what to install after a whipe of the root partition.
 
-## Installation scripts
-- install-dnf.sh
+## Installation scripts, choose either dnf or flatpak
+- [dnf install scipt](install-dnf.sh)
 - install-flatpak.sh (if you want to use flatpak in stead of dnf)
 
 ## Extra repo's

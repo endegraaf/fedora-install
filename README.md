@@ -13,6 +13,7 @@ RPMFusion
 ## Desktop environment 
 - Gnome
   - https://extensions.gnome.org/extension/2311/topicons-plus/
+  - https://extensions.gnome.org/extension/307/dash-to-dock/
 
 ## Video editing & graphics
 - OBS Open Broadcaster Software

@@ -12,9 +12,7 @@ RPMFusion
 
 ## Desktop environment 
 - Gnome
-  - https://extensions.gnome.org/extension/1503/tray-icons/
-- KDE
-- I3
+  - https://extensions.gnome.org/extension/2311/topicons-plus/
 
 ## Video editing & graphics
 - OBS Open Broadcaster Software
@@ -22,8 +20,6 @@ RPMFusion
 - Audacity
 - Krita
 
-## Workflow
-- latte dock
 
 ## emacs
 * Config https://github.com/jhamrick/emacs.git
@@ -57,19 +53,19 @@ RPMFusion
 - Adblock Plus
 - I don't care about cookies
 - Lastpass
-- Owl - for comfortable reading
-- Night Owl (Firefox dark / light theme toggle)
+- Darkreader
 
 ### Dictionaries
 - Woordenboek nederlands (opentaal) https://www.opentaal.org/bestanden/file/4-woordenlijst-v-2-10g-voor-openoffice-org-3
 
 ### Fonts
 - Yanone Kaffeesatz
+- IBM_Plex_Mono   
+- JetBrains Mono
 - Alegreya        
 - FiraCode
 - neuropol_x
 - Alegreya_Sans   
-- IBM_Plex_Mono   
 - 'Source Sans Pro'
 - Cabin
 - IBM_Plex_Sans    
